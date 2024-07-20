@@ -133,9 +133,6 @@ if __name__ == "__main__":
     cli.add_arg(
         parser, config, ["--capacity_type"], default=None, choices=["preemptible", "spot", "reserved", "on-demand"]
     )
-        cli.add_arg(
-        parser, config, ["--capacity_type"], default=None, choices=["preemptible", "spot", "reserved", "on-demand"]
-    )
     cli.add_arg(
         parser,
         config,
